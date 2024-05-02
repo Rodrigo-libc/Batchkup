@@ -11,19 +11,18 @@ REM Inicio do Script
 call artASCII\art.bat
 echo.             
 echo Listando Unidades... 
-echo.                  
+echo.   
 wmic logicaldisk where drivetype=2 get deviceid, volumename, description
 wmic logicaldisk where drivetype=3 get deviceid, volumename, description
-echo Enter para continuar...
 echo.
-pause>nul  
 set /p "unidade=-Digite a unidade para Backup, exemplo> g: "
 REM Laço For para comparação... 
 for %%a in (%uni%) do ( if /i %unidade%== %%a goto inicio)
 REM Caso a unidade esteja errada retorna!!!
   echo.
   echo -Unidade errada ou ausente, tente novamente!!!
-  pause> nul
+  echo Enter para retornar
+  pause>nul
   cls
   goto retorno
 REM Opções de Backup
@@ -59,4 +58,3 @@ xcopy %userprofile%\Downloads\*.* %unidade% /s /e /y
 :8
   exit
 pause >nul
-
