@@ -1,31 +1,38 @@
 @echo off
-::Criado por; Rodrigo Albuquerque
-::Backup de Arquivos Windows v1.2
+REM Criado por; Rodrigo Albuquerque
+REM Backup de Arquivos Windows v1.2
 mode con: lines=30 cols=65
 color 1f
 title Backup Windows v1.2
-::Adicione sua unidade de backup caso não esteja aqui
+REM Adicione sua unidade de backup caso não esteja aqui
 set uni=a: b: c: d: e: f: g: h: i: j:
-::Inicio do Script
+REM Inicio do Script
 :retorno
 call artASCII\art.bat
+echo.             
+echo Listando Unidades... 
+echo.                  
+wmic logicaldisk where drivetype=2 get deviceid, volumename, description
+wmic logicaldisk where drivetype=3 get deviceid, volumename, description
+echo Enter para continuar...
 echo.
+pause>nul  
 set /p "unidade=-Digite a unidade para Backup, exemplo> g: "
-::Laço For para comparação... 
+REM Laço For para comparação... 
 for %%a in (%uni%) do ( if /i %unidade%== %%a goto inicio)
-::Caso a unidade esteja errada retorna!!!
+REM Caso a unidade esteja errada retorna!!!
   echo.
   echo -Unidade errada ou ausente, tente novamente!!!
   pause> nul
   cls
   goto retorno
-::Opções de Backup
+REM Opções de Backup
 :inicio
 cls
 echo.
 call artASCII\art2.bat 
 echo.
-::Choice + errorlevel
+REM Choice + errorlevel
 choice /c "12345678" /n /m "-Digite>"
   goto %errorlevel%
 :1 
@@ -52,3 +59,4 @@ xcopy %userprofile%\Downloads\*.* %unidade% /s /e /y
 :8
   exit
 pause >nul
+
