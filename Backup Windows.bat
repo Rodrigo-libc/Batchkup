@@ -1,9 +1,9 @@
 @echo off
 REM Criado por; Rodrigo Albuquerque
-REM Backup de Arquivos Windows v1.2
+REM Backup de Arquivos Windows v1.3
 mode con: lines=30 cols=65
 color 1f
-title Backup Windows v1.2
+title Backup Windows v1.3
 REM Adicione sua unidade de backup caso não esteja aqui
 set uni=a: b: c: d: e: f: g: h: i: j:
 REM Inicio do Script
