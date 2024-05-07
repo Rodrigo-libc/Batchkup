@@ -3,6 +3,8 @@
 
 ![win](https://github.com/Rodrigo-libc/Batchkup_v1.4/blob/main/artASCII/Batchkup.png?raw=true)
 
+**IMPORTANTE!**
+
 Caso necessite adicione sua unidade ao arquivo. 
 
 Abra o `Batchkup.bat` em algum editor de texto de sua preferência.
