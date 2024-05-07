@@ -21,6 +21,8 @@ Na linha 11 `set uni=B: C: D: E: F: G: H: ` é só incluir, por exemplo J:
 
 Salve o arquivo e pronto!
 
+**BONS BACKUPS!!!**
+
 
 
 
