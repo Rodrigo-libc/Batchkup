@@ -3,7 +3,7 @@
 
 ![win](https://github.com/Rodrigo-libc/Batchkup_v1.4/blob/main/artASCII/Batchkup.png?raw=true)
 
-**Instruções**
+**INSTRUÇÔES DE USO**
 
 Basta dar 2 cliques e começar a usa.
 
