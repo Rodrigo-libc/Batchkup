@@ -3,6 +3,10 @@
 
 ![win](https://github.com/Rodrigo-libc/Batchkup_v1.4/blob/main/artASCII/Batchkup.png?raw=true)
 
+Basta dar 2 cliques e começar a usa.
+
+É tudo muito simples e intuitivo.
+
 **IMPORTANTE!**
 
 Caso necessite adicione sua unidade ao arquivo. 
