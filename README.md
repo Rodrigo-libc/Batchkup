@@ -3,9 +3,13 @@
 
 ![win](https://github.com/Rodrigo-libc/Batchkup_v1.4/blob/main/artASCII/Batchkup.png?raw=true)
 
+**Instruções**
+
 Basta dar 2 cliques e começar a usa.
 
 É tudo muito simples e intuitivo.
+
+Existiram menus que te guiarão durante o processo.
 
 **IMPORTANTE!**
 
