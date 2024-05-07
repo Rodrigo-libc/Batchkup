@@ -5,11 +5,11 @@
 
 **INSTRUÇÔES DE USO**
 
-Basta dar 2 cliques e começar a usa.
+Basta dar 2 cliques e começar usar, Batchkup não requer complexidade.
 
 É tudo muito simples e intuitivo.
 
-Existiram menus que te guiarão durante o processo.
+Existiram menus que te guiarão durante o processo...
 
 **IMPORTANTE!**
 
