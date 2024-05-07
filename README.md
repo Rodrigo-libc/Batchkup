@@ -21,7 +21,7 @@ Na linha 11 `set uni=B: C: D: E: F: G: H: ` é só incluir, por exemplo J:
 
 Caso exista algum arquivo com um tipo de extensão que você não quer copiar da Área de trabalho.
 
-Basta adicionar ao arquivo `RemoveExtensions.txt` por exemplo `.exe`, salve o arquivo. 
+Basta adicionar ao arquivo `RemoveExtensions.txt` por exemplo, `.exe` salve o arquivo. 
 
 
 **ATENÇÂO**
