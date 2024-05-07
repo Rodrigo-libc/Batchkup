@@ -23,6 +23,8 @@ Caso exista algum arquivo com um tipo de extensão que você não queira copiar 
 
 Basta adicionar ao arquivo `RemoveExtensions.txt` por exemplo, `.exe` salve o arquivo. 
 
+Obs: *Só necessário para copia em massa da Área de trabalho.*
+
 
 **ATENÇÂO**
 
