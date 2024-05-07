@@ -13,7 +13,7 @@ Existiram menus que te guiarão durante o processo...
 
 **IMPORTANTE!**
 
-Caso necessite adicione sua unidade ao arquivo. 
+Caso necessário adicione sua unidade ao arquivo. 
 
 Abra o `Batchkup.bat` em algum editor de texto de sua preferência.
 
