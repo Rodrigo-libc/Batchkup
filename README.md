@@ -23,7 +23,6 @@ Caso exista algum arquivo com algum tipo de extensão que você não quer copiar
 
 Basta adicionar ao arquivo `RemoveExtensions.txt` por exemplo `.exe`, salve o arquivo. 
 
-Salve o arquivo e pronto!
 
 **ATENÇÂO**
 
